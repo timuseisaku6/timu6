@@ -2,5 +2,5 @@
 
 int main()
 {
-	printf_s("aa");
+	printf_s("a");
 }
