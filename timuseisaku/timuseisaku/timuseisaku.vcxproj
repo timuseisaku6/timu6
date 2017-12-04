@@ -131,6 +131,8 @@
     <ClCompile Include="GameL\UserData.cpp" />
     <ClCompile Include="GameL\WinInputs.cpp" />
     <ClCompile Include="kyousitu.cpp" />
+    <ClCompile Include="ObjGameOver.cpp" />
+    <ClCompile Include="SceneGameOver.cpp" />
     <ClCompile Include="SceneMain.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -149,6 +151,8 @@
     <ClInclude Include="GameL\WinInputs.h" />
     <ClInclude Include="kyousitu.h" />
     <ClInclude Include="main.h" />
+    <ClInclude Include="ObjGameOver.h" />
+    <ClInclude Include="SceneGameOver.h" />
     <ClInclude Include="SceneMain.h" />
   </ItemGroup>
   <ItemGroup>

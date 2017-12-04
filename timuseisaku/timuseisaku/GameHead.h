@@ -7,6 +7,7 @@ enum OBJ_NAME
 					//ゲームで使うオブジェクトの名前
 					//OBJ_○○と表記
 					OBJ_PLAYER,
+					OBJ_GAME_OVER,
 };
 //------------------------------------------------
 
@@ -51,13 +52,15 @@ struct UserData
 
 //ゲームシーンオブジェクトヘッダ------------------
 #include "CObjPlayer.h"
+#include "ObjGameOver.h"
 //------------------------------------------------
 
 //ゲームシーンクラスヘッダ------------------------
 #include "SceneMain.h"
+#include "SceneGameOver.h"
 //-----------------------------------------------
 
 //シーンスタートクラス---------------------------
 //ゲーム開始時のシーンクラス登録
-#define SET_GAME_START  CSceneMain
+#define SET_GAME_START  CSceneGameOver
 //-----------------------------------------------
