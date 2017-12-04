@@ -4,6 +4,7 @@
 #include "GameHead.h"
 #include "GameL\DrawTexture.h"
 #include "GameL\WinInputs.h"
+#include "kyousitu.h"
 
 using namespace GameL;
 
@@ -11,11 +12,20 @@ using namespace GameL;
 
 kyousitu::kyousitu()
 {
+	;
 }
 
 
 kyousitu::~kyousitu()
 {
+}
+void kyousitu::Init()
+{
+
+}
+void kyousitu::Action() 
+{
+
 }
 
 void kyousitu::Draw()
