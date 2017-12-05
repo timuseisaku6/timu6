@@ -37,7 +37,8 @@ void CSceneMain::InitScene()
 	CObjPlayer* obj = new CObjPlayer(387, 268);
 	Objs::InsertObj(obj, OBJ_PLAYER, 1);//作ったオブジェクトをオブジェクトマネージャーに登録
 
-	
+	kyousitu* objk = new kyousitu();
+	Objs::InsertObj(objk, OBJ_KYOUSITU, 1);
 }
 
 //ゲームメイン実行中メソッド
