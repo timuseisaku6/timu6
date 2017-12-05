@@ -60,6 +60,12 @@
     <ClCompile Include="kyousitu.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
+    <ClCompile Include="story.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SCStory.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameHead.h">
@@ -104,10 +110,16 @@
     <ClInclude Include="SceneMain.h">
       <Filter>ソース ファイル</Filter>
     </ClInclude>
+    <ClInclude Include="kyousitu.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="story.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
     <ClInclude Include="CObjPlayer.h">
       <Filter>ソース ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="kyousitu.h">
+    <ClInclude Include="SCStory.h">
       <Filter>ソース ファイル</Filter>
     </ClInclude>
   </ItemGroup>

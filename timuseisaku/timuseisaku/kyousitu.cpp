@@ -4,7 +4,7 @@
 #include "GameHead.h"
 #include "GameL\DrawTexture.h"
 #include "GameL\WinInputs.h"
-#include "kyousitu.h"
+
 
 using namespace GameL;
 

@@ -13,5 +13,3 @@ public:
 	void Action();
 	void Draw();
 };
-
-//

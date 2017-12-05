@@ -132,6 +132,8 @@
     <ClCompile Include="GameL\WinInputs.cpp" />
     <ClCompile Include="kyousitu.cpp" />
     <ClCompile Include="SceneMain.cpp" />
+    <ClCompile Include="SCStory.cpp" />
+    <ClCompile Include="story.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CObjPlayer.h" />
@@ -150,6 +152,8 @@
     <ClInclude Include="kyousitu.h" />
     <ClInclude Include="main.h" />
     <ClInclude Include="SceneMain.h" />
+    <ClInclude Include="SCStory.h" />
+    <ClInclude Include="story.h" />
   </ItemGroup>
   <ItemGroup>
     <FxCompile Include="GameL\Draw2DTex.hlsl" />
