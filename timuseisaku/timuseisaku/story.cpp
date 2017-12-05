@@ -22,14 +22,16 @@ story::~story()
 void story::Init()
 {
 	m_key_flag = false;
+	m_rgb = 0.0f;
 }
 
 void story::Action()
 {
+	if (m_rgb <= 1.0f) m_rgb += 0.01f;
 	
 	if (Input::GetVKey(VK_RETURN) == true)
 	{
-		Scene::SetScene(new CSceneMain());
+		Scene::SetScene(new CSceneTitle());
 		m_key_flag = false;
 	}
 	else
@@ -41,7 +43,7 @@ void story::Action()
 
 void story::Draw()
 {
-	float c[4] = { 1.0f,1.0f,1.0f,1.0f };
+	float c[4] = { m_rgb,m_rgb,m_rgb,1.0f };
 
 	RECT_F src;
 	RECT_F dst;

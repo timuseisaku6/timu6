@@ -5,11 +5,11 @@
 using namespace GameL;
 
 //オブジェクト：プレイヤー
-class CObjPlayer :public CObj
+class CObjEnemy :public CObj
 {
 public:
-	CObjPlayer(float x, float y);//コンストラクタ
-	~CObjPlayer() {};
+	CObjEnemy(float x, float y);//コンストラクタ
+	~CObjEnemy() {};
 	void Init();	//イニシャライズ
 	void Action();	//アクション
 	void Draw();	//ドロー
@@ -21,6 +21,9 @@ private:
 	float m_x;	//X方向移動用
 	float m_y;	//Y方向移動用
 	int m_r;	//向き
-	int m_ani_time;//歩きアニメーション用タイム
-	bool m_keydown;//移動キーが押されているか
+	float ar;	//主人公の向き
+	bool m_WalkFlag;//歩きフラグ
+	int m_time;
+	int m_ani_time;	//歩きアニメーション用タイム
+	int m_WallAI;	//壁に当たったら
 };
