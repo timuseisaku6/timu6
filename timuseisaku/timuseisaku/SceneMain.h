@@ -15,3 +15,5 @@ public:
 	void Scene();	//ゲームメインの実行中メソッド
 private:
 };
+
+//鉛筆テスト
