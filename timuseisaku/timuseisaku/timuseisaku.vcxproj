@@ -131,7 +131,14 @@
     <ClCompile Include="GameL\UserData.cpp" />
     <ClCompile Include="GameL\WinInputs.cpp" />
     <ClCompile Include="kyousitu.cpp" />
+    <ClCompile Include="CObjEnemy.cpp" />
+    <ClCompile Include="ObjTitle.cpp" />
     <ClCompile Include="SceneMain.cpp" />
+    <ClCompile Include="SceneTitle.cpp" />
+    <ClCompile Include="school_desk.cpp" />
+    <ClCompile Include="SCStory.cpp" />
+    <ClCompile Include="story.cpp" />
+    <ClCompile Include="UtilityModule.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CObjPlayer.h" />
@@ -149,7 +156,14 @@
     <ClInclude Include="GameL\WinInputs.h" />
     <ClInclude Include="kyousitu.h" />
     <ClInclude Include="main.h" />
+    <ClInclude Include="CObjEnemy.h" />
+    <ClInclude Include="ObjTitle.h" />
     <ClInclude Include="SceneMain.h" />
+    <ClInclude Include="SceneTitle.h" />
+    <ClInclude Include="school_desk.h" />
+    <ClInclude Include="SCStory.h" />
+    <ClInclude Include="story.h" />
+    <ClInclude Include="UtilityModule.h" />
   </ItemGroup>
   <ItemGroup>
     <FxCompile Include="GameL\Draw2DTex.hlsl" />

@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="ソース ファイル\story">
+      <UniqueIdentifier>{2ba1a987-1a18-4639-b184-6f861d1933f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Title">
+      <UniqueIdentifier>{3292694b-b6bf-4c91-b993-57c77fb0c1d6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GameL\Audio.cpp">
@@ -59,6 +65,27 @@
     </ClCompile>
     <ClCompile Include="kyousitu.cpp">
       <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="school_desk.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="CObjEnemy.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="UtilityModule.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneTitle.cpp">
+      <Filter>ソース ファイル\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjTitle.cpp">
+      <Filter>ソース ファイル\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="story.cpp">
+      <Filter>ソース ファイル\story</Filter>
+    </ClCompile>
+    <ClCompile Include="SCStory.cpp">
+      <Filter>ソース ファイル\story</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -109,6 +136,27 @@
     </ClInclude>
     <ClInclude Include="kyousitu.h">
       <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="school_desk.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="CObjEnemy.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="UtilityModule.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneTitle.h">
+      <Filter>ソース ファイル\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjTitle.h">
+      <Filter>ソース ファイル\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="story.h">
+      <Filter>ソース ファイル\story</Filter>
+    </ClInclude>
+    <ClInclude Include="SCStory.h">
+      <Filter>ソース ファイル\story</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

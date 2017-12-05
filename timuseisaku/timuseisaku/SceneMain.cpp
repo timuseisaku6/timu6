@@ -37,6 +37,20 @@ void CSceneMain::InitScene()
 	CObjPlayer* obj = new CObjPlayer(387, 268);
 	Objs::InsertObj(obj, OBJ_PLAYER, 1);//作ったオブジェクトをオブジェクトマネージャーに登録
 
+	//enemyオブジェクト作成
+	CObjEnemy* obj1 = new CObjEnemy(500, 400);
+	Objs::InsertObj(obj1, OBJ_ENEMY, 50);//作ったオブジェクトをオブジェクトマネージャーに登録
+
+	//学生机オブジェクト作成
+	school_desk* obj2;
+	for (int i = 0; i < 5; i++)
+	{
+		for (int j = 0; j < 4; j++) {
+	obj2= new school_desk(i*100+220, j*82+223);
+	Objs::InsertObj(obj2, OBJ_SCHOOL_DESK, 1);//作ったオブジェクトをオブジェクトマネージャーに登録
+		}
+	}
+
 	kyousitu* objk = new kyousitu();
 	Objs::InsertObj(objk, OBJ_KYOUSITU, 1);
 }
