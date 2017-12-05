@@ -19,6 +19,9 @@
     <Filter Include="ソース ファイル\Title">
       <UniqueIdentifier>{3292694b-b6bf-4c91-b993-57c77fb0c1d6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ソース ファイル\gameover">
+      <UniqueIdentifier>{2ca976fe-fdb7-4411-9cca-f1e16d4f6e1b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GameL\Audio.cpp">
